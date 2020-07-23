@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "conways-game-of-life"
+    }
+  },
+  "defaultProject": "conways-game-of-life",
+  "cli": {
+    "analytics": false
+  }
 }

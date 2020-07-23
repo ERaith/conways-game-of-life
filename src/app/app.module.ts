@@ -1,8 +1,12 @@
+  
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+
+import { AppComponent } from './Components/app.component';
+import { ShapeService } from './Services/shape.service';
+
 
 @NgModule({
   declarations: [
@@ -10,9 +14,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    FormsModule
   ],
-  providers: [],
+  providers: [ShapeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
